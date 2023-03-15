@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body {
+    background-color: #f5f3f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    position: relative;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+/* .header {
+    width: 80vw;
+    text-align: left;
+    margin-left: 100px;
+} */
+
+#tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: black;
+    color: #fff;	
+    text-align: center;						
+    padding: 1em;
+    box-shadow: 0 0 0.5em black;
+    z-index: 1				
+}
